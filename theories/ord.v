@@ -7,7 +7,7 @@ From mathcomp Require Import
 From deriving Require base.
 From deriving Require Import deriving.
 
-From Coq Require Import ZArith NArith Ascii String.
+From Stdlib Require Import ZArith NArith Ascii String.
 (******************************************************************************)
 (*   Class of types with a decidable total order relation.  Its main purpose  *)
 (* is to supply an interface for aggregate structures (sets, maps) that       *)
